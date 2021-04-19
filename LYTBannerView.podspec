@@ -20,4 +20,5 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '4.2'
 
   spec.dependency 'Kingfisher'
+
 end

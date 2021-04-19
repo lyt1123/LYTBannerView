@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Kingfisher
 
 class LYTBannerCollectionCell: UICollectionViewCell{
     
@@ -25,7 +24,6 @@ class LYTBannerCollectionCell: UICollectionViewCell{
     
     func configuarWithImg(urlStr:String){
         if urlStr.hasPrefix("http"){
-            bannerImage.kf.setImage(with: URL(string: urlStr))
         }
         else{
             bannerImage.image = UIImage(named: urlStr)
